@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Git Search</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Git Search</span>
+    </nav>
+    
+	<div id="search"><input id="name" type="text" name="search" placeholder="search...">
+	<button onclick="ping()">Search</button></div>
+	
+	<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <label class="font-weight-bold">ID : </label><p id="id"></p>
+	</div>
+    <div class="col-sm">
+      <label class="font-weight-bold">Name : </label><p id="user"></p>
+    </div>
+    <div class="col-sm">
+      <img id = "image" height="170px" width="170px">
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <label class="font-weight-bold">Total Repositories :</label><p id = "resposlength" ></p>
+	<label class="font-weight-bold">Repository List:</label><table id = "reposTable"></table>
+    </div>
+    <div class="col-sm">
+      <label class="font-weight-bold">Total Followers :</label><p id="followers"></p>
+	<label class="font-weight-bold">Followers List :</label><table id = "followerTable"></table>
+    </div>
+    <div class="col-sm">
+      <label class="font-weight-bold">Total Following :</label><p id="following"></p>
+	<label class="font-weight-bold">Following List :</label><table id = "followingTable"></table>
+    </div>
+  </div>
+</body>
+</html>

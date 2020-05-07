@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+
+#search{
+    padding-top: 50px;
+	text-align: center;
+}
+
+#img{
+	padding: 0 0 50px 400px;
+}
+
+.container{
+	padding: 40px 0 30px 0;
+
+}
+
+label{
+	font-size: 20px;
+}
+
